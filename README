@@ -1,0 +1,5 @@
+This is a simple application that downloads pages from Google Books.  Basically, it just goes to the HTML version of the page and downloads the image representing that page and then stitches them together into a PDF that will open in Preview.  
+
+Disclaimer
+----------
+Remember, many of these books are copyrighted.  Don't steal books.  I did this as an exercise to play around with pagination in Nu/Cocoa.  I'll admit that it's useful to have something handy in PDF format offline but if you find yourself downloading several pages of a book, consider purchasing it.  If/when Google changes how books are viewed, I probably won't update this app.
