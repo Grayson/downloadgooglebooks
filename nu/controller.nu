@@ -9,7 +9,7 @@
 	
 	(- (id) fetch:(id)sender is
 		((self printButton) setEnabled:NO)
-		(set url (NSURL URLWithString:((self urlField) stringValue)))
+		(set url (NSURL URLWithString:(NSString stringWithString:((self urlField) stringValue))))
 		(set count ((self numberField) intValue))
 		(self setPageCount:count)
 		(NSThread detachNewThreadSelector:"beginThreadedFetch:" toTarget:self withObject:url) )
